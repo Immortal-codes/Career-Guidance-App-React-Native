@@ -18,6 +18,9 @@ import ArtGraduate from '../screens/ArtGraduate';
 import ScienceGraduate from '../screens/ScienceGraduate';
 import CommerceGraduate from '../screens/CommerceGraduate';
 import OtherGraduation from '../screens/OtherGraduation';
+import Sport from '../screens/Sport';
+import Bussiness from '../screens/Bussiness';
+import MainScreenOther from '../screens/MainScreenOther';
 
 const Stack = createStackNavigator();
 
@@ -41,6 +44,9 @@ const navigation = () => {
         <Stack.Screen name="ScienceGraduate" component={ScienceGraduate} />
         <Stack.Screen name="CommerceGradute" component={CommerceGraduate} />
         <Stack.Screen name="OtherGraduation" component={OtherGraduation} />
+        <Stack.Screen name="Sport" component={Sport} />
+        <Stack.Screen name="Bussiness" component={Bussiness} />
+        <Stack.Screen name="MainScreenOther" component={MainScreenOther} />
       </Stack.Navigator>
     </NavigationContainer>
  

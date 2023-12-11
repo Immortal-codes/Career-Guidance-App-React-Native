@@ -51,7 +51,7 @@ const HomeScreen = ({ navigation }) => {
                         height: 160,
                         width: 160,
                         marginTop: 70,
-                        marginLeft: 100,
+                        marginLeft: 10,
                         margin:50,
 
                         // Shadow Styls
@@ -80,13 +80,13 @@ const HomeScreen = ({ navigation }) => {
                     </TouchableOpacity>
                     
 
-                    {/* next box */}
-                    {/* <TouchableOpacity style={{
+                    
+                     <TouchableOpacity style={{
                         backgroundColor: '#0D63A5',
                         height: 160,
                         width: 160,
                         marginLeft: 200,
-                        marginTop: -160,
+                        marginTop: -210,
 
                         // Shadow Styls
 
@@ -96,7 +96,11 @@ const HomeScreen = ({ navigation }) => {
                         shadowRadius: 5,
                         borderRadius: 20
 
-                    }} >
+                    }} 
+                    
+                    onPress={() => navigation.navigate('Sport')}
+                    
+                    >
                         <Text style={{
                             fontSize: 30,
                             marginTop: 60,
@@ -122,7 +126,11 @@ const HomeScreen = ({ navigation }) => {
                         shadowRadius: 5,
                         borderRadius: 20
 
-                    }} >
+                    }} 
+                    
+                    onPress={() => navigation.navigate('Bussiness')}
+                    
+                    >
                         <Text style={{
                             fontSize: 30,
                             marginTop: 60,
@@ -148,7 +156,11 @@ const HomeScreen = ({ navigation }) => {
                         shadowOpacity: 0.3,
                         shadowRadius: 5,
                         borderRadius: 20
-                    }} >
+                    }} 
+                    
+                    onPress={() => navigation.navigate('MainScreenOther')}
+                    
+                    >
                         <Text style={{
                             fontSize: 30,
                             marginTop: 60,
@@ -157,7 +169,7 @@ const HomeScreen = ({ navigation }) => {
                         }}>
                             Other
                         </Text>
-                    </TouchableOpacity> */}
+                    </TouchableOpacity>
                 </View>
 
             </View>
